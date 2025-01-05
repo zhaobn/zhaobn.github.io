@@ -1,0 +1,62 @@
+a {
+  text-decoration: underline;
+}
+#site-title {
+  letter-spacing: normal !important;
+}
+
+/* People Page Table Styling */
+.people-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 60px;
+  padding: 0;
+}
+
+.people-table tr{
+  background-color: transparent !important;
+}
+
+.person {
+  border: none;
+  height: 200px;
+}
+
+.person-photo {
+  width: 150px;
+  padding: 0px;
+  vertical-align: top;
+  border: none;
+}
+
+.person-photo img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.person-info {
+  vertical-align: top;
+  padding-left: 40px;
+  padding-top: 5px;
+  border: none;
+  background: none;
+}
+
+.person-name {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;;
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+.person-title {
+  margin-bottom: 15px !important;
+  font-size: 1.2em;
+  color: #555;
+}
+
+.person-bio {
+  margin-bottom: 10px !important;
+}
